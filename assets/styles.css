@@ -468,6 +468,54 @@ body {
     color: white;
 }
 
+/* Filtro de plataforma: ocupa a linha inteira, abaixo da busca e das áreas.
+   Os botões são de seleção múltipla (aria-pressed), por isso o "marcado" leva
+   um ✓ além da cor: dá para ver de relance quais estão somados. */
+.source-filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    flex-basis: 100%;
+}
+
+.source-filter-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+}
+
+.source-pill[aria-pressed="true"] {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: white;
+}
+
+.source-pill[aria-pressed="true"]::before {
+    content: "✓ ";
+}
+
+.source-count {
+    opacity: 0.75;
+    font-variant-numeric: tabular-nums;
+}
+
+.source-pill:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+
+.source-clear {
+    font-size: 0.75rem;
+    background: none;
+    border: none;
+    color: var(--color-primary);
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0.25rem;
+}
+
 @media (min-width: 480px) {
     .filters {
         flex-direction: row;

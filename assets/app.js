@@ -14,6 +14,8 @@ const state = {
     currentTab: 'legal',
     currentSubTab: 'recentes', // padrão: abre em "Últimos 7 dias" (sem as já vistas)
     currentLegalFilter: 'todas',
+    // Plataformas marcadas no filtro (seleção múltipla). Vazio = todas.
+    fontesSelecionadas: new Set(),
     currentGeralFilter: 'assistente',
     currentScheduleFilter: 'todas',
     searchTerm: '',
@@ -49,6 +51,9 @@ function init() {
         geralFilterPillsContainer: document.getElementById('geral-filter-pills'),
         legalFilterPills: document.querySelectorAll('#legal-filter-pills .filter-pill'),
         geralFilterPills: document.querySelectorAll('#geral-filter-pills .filter-pill'),
+        sourceFilter: document.getElementById('source-filter'),
+        sourcePills: document.querySelectorAll('#source-filter .source-pill'),
+        sourceClear: document.getElementById('source-clear'),
         scheduleFilterPills: document.querySelectorAll('#schedule-filter-pills .filter-pill'),
         vacanciesGrid: document.getElementById('vacancies-grid'),
         scheduleContainer: document.getElementById('schedule-container'),
@@ -108,6 +113,29 @@ function setupEventListeners() {
             renderVagas();
         });
     });
+
+    // Plataformas: cada clique liga/desliga uma. Marcar Catho e InfoJobs mostra
+    // as vagas das duas; desmarcar todas volta a mostrar tudo.
+    els.sourcePills.forEach(pill => {
+        pill.addEventListener('click', () => {
+            const fonte = pill.dataset.fonte;
+            if (state.fontesSelecionadas.has(fonte)) {
+                state.fontesSelecionadas.delete(fonte);
+            } else {
+                state.fontesSelecionadas.add(fonte);
+            }
+            atualizarBotoesDeFonte();
+            renderVagas();
+        });
+    });
+
+    if (els.sourceClear) {
+        els.sourceClear.addEventListener('click', () => {
+            state.fontesSelecionadas.clear();
+            atualizarBotoesDeFonte();
+            renderVagas();
+        });
+    }
 
     els.geralFilterPills.forEach(pill => {
         pill.addEventListener('click', () => {
@@ -346,6 +374,8 @@ function switchTab(tab) {
     if (els.subTabs) els.subTabs.classList.toggle('hidden', isSchedule);
 
     if (els.legalFilterPillsContainer) els.legalFilterPillsContainer.classList.toggle('hidden', !isLegal);
+    // "Vagas Gerais" só tem Gupy, então o filtro de plataforma é só da Legalização.
+    if (els.sourceFilter) els.sourceFilter.classList.toggle('hidden', !isLegal);
     if (els.geralFilterPillsContainer) els.geralFilterPillsContainer.classList.toggle('hidden', !isGeral);
 
     els.searchInput.value = '';
@@ -486,7 +516,16 @@ function filterVagas() {
 
         filtered = filtered.filter(v => filtroLegal(v, state.currentLegalFilter));
 
-        return aplicarFiltroSubTab(ordenarPorDataDecrescente(filtered));
+        // A contagem de cada botão de plataforma considera os outros filtros
+        // (busca, área, sub-aba), mas não a própria plataforma: assim o número
+        // diz quantas vagas aquele botão vai somar se for marcado.
+        const antesDaFonte = aplicarFiltroSubTab(ordenarPorDataDecrescente(filtered));
+        atualizarContagemPorFonte(antesDaFonte);
+
+        if (state.fontesSelecionadas.size) {
+            return antesDaFonte.filter(v => state.fontesSelecionadas.has(fonteDaVaga(v)));
+        }
+        return antesDaFonte;
     }
 
     if (state.currentTab === 'geral') {
@@ -553,6 +592,30 @@ function renderVagas() {
 // Vagas antigas do histórico não têm o campo: todas eram da Gupy.
 function fonteDaVaga(vaga) {
     return vaga.fonte || 'Gupy';
+}
+
+function atualizarBotoesDeFonte() {
+    els.sourcePills.forEach(pill => {
+        const marcada = state.fontesSelecionadas.has(pill.dataset.fonte);
+        pill.setAttribute('aria-pressed', marcada ? 'true' : 'false');
+    });
+    if (els.sourceClear) els.sourceClear.classList.toggle('hidden', state.fontesSelecionadas.size === 0);
+}
+
+function atualizarContagemPorFonte(vagas) {
+    const contagem = {};
+    vagas.forEach(v => {
+        const fonte = fonteDaVaga(v);
+        contagem[fonte] = (contagem[fonte] || 0) + 1;
+    });
+    els.sourcePills.forEach(pill => {
+        const total = contagem[pill.dataset.fonte] || 0;
+        const span = pill.querySelector('.source-count');
+        if (span) span.textContent = `(${total})`;
+        // Plataforma sem vaga no recorte atual não pode ser marcada — a não ser
+        // que já esteja marcada, senão a pessoa não conseguiria desmarcá-la.
+        pill.disabled = total === 0 && !state.fontesSelecionadas.has(pill.dataset.fonte);
+    });
 }
 
 function createCard(vaga) {

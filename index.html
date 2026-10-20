@@ -67,6 +67,17 @@
                 <button class="filter-pill" data-filter="paralegal">Paralegal</button>
                 <button class="filter-pill" data-filter="licencas">Licenças</button>
             </div>
+            <!-- Plataformas: seleção múltipla. Nenhuma marcada = todas. -->
+            <div class="source-filter" id="source-filter" role="group" aria-label="Filtrar por plataforma">
+                <span class="source-filter-label">Plataformas:</span>
+                <div class="filter-pills">
+                    <button class="filter-pill source-pill" data-fonte="Gupy" aria-pressed="false">Gupy <span class="source-count"></span></button>
+                    <button class="filter-pill source-pill" data-fonte="LinkedIn" aria-pressed="false">LinkedIn <span class="source-count"></span></button>
+                    <button class="filter-pill source-pill" data-fonte="InfoJobs" aria-pressed="false">InfoJobs <span class="source-count"></span></button>
+                    <button class="filter-pill source-pill" data-fonte="Catho" aria-pressed="false">Catho <span class="source-count"></span></button>
+                </div>
+                <button type="button" class="source-clear hidden" id="source-clear">Limpar</button>
+            </div>
             <div class="filter-pills hidden" id="geral-filter-pills">
                 <button class="filter-pill active" data-filter="assistente">Assistente</button>
                 <button class="filter-pill" data-filter="junior">Júnior</button>
