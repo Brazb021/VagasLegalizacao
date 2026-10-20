@@ -239,7 +239,8 @@ def salvar_vagas_recentes(
                 "isRemoteWork": vaga.get("isRemoteWork", False),
                 "city": vaga.get("city", ""),
                 "state": vaga.get("state", ""),
-                "country": vaga.get("country", "")
+                "country": vaga.get("country", ""),
+                "fonte": vaga.get("fonte", "Gupy"),
             }
             vagas_existentes.append(vaga_completa)
             ids_existentes.add(vaga_id)
@@ -247,7 +248,12 @@ def salvar_vagas_recentes(
             # `descricoes.json`, já organizado em seções. A página da vaga é
             # preferida porque traz o HTML original (títulos, bullets e
             # subtítulos); o texto da API entra só de reserva.
-            novas_para_descrever.append(vaga)
+            #
+            # Só a Gupy é descrita: abrir a página de cada vaga do LinkedIn,
+            # InfoJobs ou Catho é justamente o que faz esses sites bloquearem.
+            # O painel dessas vagas aponta para a vaga original.
+            if vaga_completa["fonte"] == "Gupy":
+                novas_para_descrever.append(vaga)
 
     vagas_existentes.sort(key=lambda v: v.get("publishedDate", ""), reverse=True)
 
@@ -292,6 +298,7 @@ def executar_monitoramento(
     vagas_recentes_file: str = VAGAS_LEGALIZACAO_FILE_DEFAULT,
     rotulo_exibicao: str = "",
     destino: str = "legal",
+    buscar=None,
 ) -> int:
     """
     Executa o fluxo de busca na API da Gupy, filtragem por data e cache global com IDs puros,
@@ -303,6 +310,11 @@ def executar_monitoramento(
 
     `destino` ("legal" ou "geral") decide quais filtros rodam e a janela de
     publicação: 30 dias em "Legalização", 4 dias em "Vagas Gerais".
+
+    `buscar`, quando passado, substitui a API da Gupy: é uma função sem
+    argumentos que devolve as vagas já no formato da Gupy. É assim que as
+    fontes externas (LinkedIn, InfoJobs, Catho) reaproveitam o mesmo fluxo de
+    filtros, cache e histórico.
     """
     exibicao = rotulo_exibicao or rotulo
     if max_dias_pub is None:
@@ -314,8 +326,8 @@ def executar_monitoramento(
     cache_vagas = carregar_e_limpar_cache(cache_file, dias_retencao_cache)
 
     try:
-        # 2. Requisição para a API da Gupy
-        vagas = consultar_api_gupy(api_url)
+        # 2. Requisição para a API da Gupy (ou para a fonte externa)
+        vagas = buscar() if buscar else consultar_api_gupy(api_url)
 
         novas_vagas = []
         # Um contador por motivo: o terminal precisa dizer o que saiu, senão

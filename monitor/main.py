@@ -7,6 +7,7 @@ from common import (
     executar_monitoramento,
 )
 from consultas import DESTINOS, gerar_consultas
+from fontes_externas import gerar_buscas_externas
 
 ARQUIVOS = {
     "legal": VAGAS_LEGALIZACAO_FILE_DEFAULT,
@@ -14,6 +15,7 @@ ARQUIVOS = {
 }
 
 INTERVALO_ENTRE_CONSULTAS = 1  # evita rate limit da API
+INTERVALO_FONTES_EXTERNAS = 6  # LinkedIn devolve 429 com buscas seguidas
 
 # Mapa rótulo -> grupo no resumo do terminal (vazio: cada rótulo é um grupo).
 GRUPOS_DO_RESUMO = {}
@@ -45,6 +47,44 @@ def main():
             resumo.append((consulta.destino, consulta.rotulo, None))
 
         time.sleep(INTERVALO_ENTRE_CONSULTAS)
+
+    # Fontes externas, depois da Gupy: a Gupy rotula primeiro e a mesma vaga
+    # não aparece duas vezes. Uma fonte que bloquear (429, captcha) é pulada
+    # pelo resto da rodada, sem insistir — insistir é o que gera bloqueio maior.
+    fontes_bloqueadas = set()
+    for fonte, termo, rotulo, funcao in gerar_buscas_externas():
+        exibicao = f'{fonte} "{termo}" → {rotulo}'
+        print(f"
+--- {exibicao} ({DESTINOS['legal']}) ---")
+        if fonte in fontes_bloqueadas:
+            print(f"⏭️  {fonte} bloqueou nesta rodada; pulando.")
+            resumo.append(("legal", f"{fonte}", None))
+            continue
+        erro = []
+
+        def buscar(funcao=funcao, termo=termo, rotulo=rotulo, erro=erro):
+            try:
+                return funcao(termo, rotulo)
+            except Exception as err:
+                erro.append(err)
+                raise
+
+        novas = executar_monitoramento(
+            rotulo=rotulo,
+            api_url="",
+            vagas_recentes_file=ARQUIVOS["legal"],
+            rotulo_exibicao=exibicao,
+            destino="legal",
+            buscar=buscar,
+        )
+        if erro:
+            if getattr(erro[0], "code", None) in (403, 429, 999):
+                fontes_bloqueadas.add(fonte)
+            resumo.append(("legal", fonte, None))
+        else:
+            total_novas += novas
+            resumo.append(("legal", fonte, novas))
+        time.sleep(INTERVALO_FONTES_EXTERNAS)
 
     # O resumo agrupa por destino e por área: várias buscas caem no mesmo rótulo
     # (alvará, licenciamento, regularização -> Licenças). O detalhe de qual

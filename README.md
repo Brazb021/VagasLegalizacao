@@ -46,6 +46,19 @@ Está em `legalizacao_fora_do_escopo()` (`monitor/descricoes.py`). A lista `TERM
 
 ---
 
+## 🌐 Outras fontes: LinkedIn, InfoJobs e Catho
+
+Nenhum dos três tem API pública de vagas. O módulo `monitor/fontes_externas.py` lê as **páginas públicas de resultado**, as mesmas que abrem sem login, para os termos `legalização`, `societário` e `paralegal`. As vagas entram na mesma aba, com os mesmos filtros e uma etiqueta com o site de origem.
+
+- **Sem login e sem driblar bloqueio.** Se um site responder 403/429, ele é pulado pelo resto da rodada e o monitor da Gupy segue normalmente.
+- **Cidades:** São Paulo e ABC, ou vaga remota (`CIDADES_ACEITAS`).
+- **Descrição:** só as vagas da Gupy são descritas no painel. Para as demais, o botão leva à vaga original, porque abrir a página de cada vaga é o que faz esses sites bloquearem.
+- **Fragilidade:** os leitores dependem do HTML de cada site. Se um layout mudar, aquela fonte passa a trazer zero vagas até o leitor ser ajustado (`test_fontes_externas.py` tem o formato esperado de cada cartão).
+- **LinkedIn** costuma limitar acessos automáticos (HTTP 429), principalmente vindos do GitHub Actions. Nos dias em que isso acontecer, as vagas dele simplesmente não entram.
+- Essa leitura automática pode contrariar os termos de uso desses sites. O volume é pequeno (cerca de 20 páginas por dia), mas a decisão de manter é sua. Para desligar uma fonte, remova-a de `FONTES`.
+
+---
+
 ## 🚀 Como executar
 
 ```bash

@@ -550,6 +550,11 @@ function renderVagas() {
     els.vacanciesGrid.innerHTML = filtered.map(vaga => createCard(vaga)).join('');
 }
 
+// Vagas antigas do histórico não têm o campo: todas eram da Gupy.
+function fonteDaVaga(vaga) {
+    return vaga.fonte || 'Gupy';
+}
+
 function createCard(vaga) {
     const vagaId = String(vaga.id || '');
     const isApplied = state.appliedIds.has(vagaId);
@@ -569,7 +574,10 @@ function createCard(vaga) {
                     <h3 class="vacancy-title">${escapeHtml(vaga.name || 'Sem título')}</h3>
                     <span class="vacancy-badge ${badgeClass}">${badgeText}</span>
                 </div>
-                <span class="vacancy-topic">${escapeHtml(topic)}</span>
+                <div class="vacancy-tags">
+                    <span class="vacancy-topic">${escapeHtml(topic)}</span>
+                    <span class="vacancy-source" title="Site onde a vaga foi publicada">${escapeHtml(fonteDaVaga(vaga))}</span>
+                </div>
                 ${company}
                 <div class="vacancy-footer">
                     <span class="vacancy-date">${escapeHtml(dataPub)}</span>
@@ -625,7 +633,7 @@ function abrirDescricao(vagaId, botao) {
     const empresa = vaga.companyName || vaga.careerPageName || '';
     const modalidade = isVagaRemota(vaga) ? 'Remoto' : 'Presencial';
     els.descDrawerTitle.textContent = vaga.name || 'Sem título';
-    els.descDrawerSubtitle.textContent = [empresa, modalidade, formatDateTime(vaga.publishedDate)]
+    els.descDrawerSubtitle.textContent = [empresa, modalidade, fonteDaVaga(vaga), formatDateTime(vaga.publishedDate)]
         .filter(Boolean)
         .join(' · ');
     els.descDrawerApply.href = vaga.jobUrl || '#';
@@ -671,6 +679,17 @@ function fecharDescricao() {
 // que a empresa escreveu na vaga: "item" vira bullet, "subtitulo" vira um
 // rótulo em negrito e "texto" vira parágrafo — é o que a Gupy mostra.
 function renderSecoes(secoes) {
+    const vagaAberta = state.vagasPorId.get(String(state.descricaoAbertaId || ''));
+    if ((!secoes || !secoes.length) && vagaAberta && fonteDaVaga(vagaAberta) !== 'Gupy') {
+        els.descDrawerBody.innerHTML = `
+            <p class="desc-status">
+                Esta vaga é do ${escapeHtml(fonteDaVaga(vagaAberta))}. A descrição completa
+                está no site original — use o botão abaixo.
+            </p>
+        `;
+        return;
+    }
+
     if (!secoes || !secoes.length) {
         els.descDrawerBody.innerHTML = `
             <p class="desc-status">
