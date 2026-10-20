@@ -8,6 +8,12 @@ const MODE_STORAGE_KEY = 'vagaslegal_mode';
 const DIAS_JANELA_RECENTE = 7;
 const ROTULO_JANELA_RECENTE = 'últimos 7 dias';
 
+// O GitHub Pages manda o navegador guardar os arquivos por 10 minutos. Sem
+// isto, quem abriu o site antes da atualização das 18h30 continuava vendo as
+// vagas antigas. "no-cache" não baixa tudo de novo: o navegador só pergunta ao
+// servidor se o arquivo mudou e reaproveita a cópia quando não mudou.
+const SEM_CACHE = { cache: 'no-cache' };
+
 const state = {
     legalVagas: [],
     geralVagas: [],
@@ -395,8 +401,8 @@ async function loadVagas() {
 
     try {
         const [resLegal, resGeral] = await Promise.allSettled([
-            fetch('data/vagas_legalizacao.json'),
-            fetch('data/vagas_gerais.json')
+            fetch('data/vagas_legalizacao.json', SEM_CACHE),
+            fetch('data/vagas_gerais.json', SEM_CACHE)
         ]);
 
         if (resLegal.status === 'fulfilled' && resLegal.value.ok) {
@@ -668,7 +674,7 @@ function createCard(vaga) {
 function garantirDescricoes() {
     if (state.descricoes) return Promise.resolve(state.descricoes);
     if (!state.descricoesPromise) {
-        state.descricoesPromise = fetch('data/descricoes.json')
+        state.descricoesPromise = fetch('data/descricoes.json', SEM_CACHE)
             .then(res => {
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 return res.json();
