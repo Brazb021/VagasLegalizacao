@@ -111,6 +111,20 @@ class LinkedIn(unittest.TestCase):
         self.assertEqual(vaga["jobUrl"], "https://br.linkedin.com/jobs/view/analista-legalizacao-4012345678")
 
 
+class TituloRelevante(unittest.TestCase):
+    """LinkedIn e Catho buscam na descrição; só entra quem cita a área no título."""
+
+    def test_descarta_vaga_que_so_cita_na_descricao(self):
+        catho = CATHO.replace("Auxiliar de Legaliza&#xE7;&#xE3;o</a>", "Auxiliar de Crédito</a>")
+        self.assertEqual(f.ler_catho(catho, "Societário", "Sao Paulo"), [])
+
+    def test_aceita_as_areas(self):
+        for titulo in ("Assistente Societário", "Analista Paralegal", "Auxiliar de Legalizações",
+                       "Analista de Alvarás", "Analista de Abertura de Empresas"):
+            with self.subTest(titulo=titulo):
+                self.assertTrue(f._titulo_relevante(titulo))
+
+
 class Datas(unittest.TestCase):
     def test_dezembro_lido_em_janeiro_e_do_ano_anterior(self):
         from datetime import datetime

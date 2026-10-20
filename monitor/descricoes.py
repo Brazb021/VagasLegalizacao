@@ -208,7 +208,9 @@ def estagio_fora_do_escopo(nome: str) -> bool:
 # como no filtro de tech, a lista é explícita: o que ninguém catalogou passa.
 #
 # Válvula de escape: "legalização" ou "paralegal" no título vence qualquer
-# termo da lista — "Analista de Legalização (Jurídico)" continua.
+# termo da lista — "Analista de Legalização (Jurídico)" continua. Estágio e
+# aprendiz são a exceção: saem sempre, porque a vaga não é para quem já atua
+# na área ("Estagiário — Folha de Pagamento e Paralegal").
 # --------------------------------------------------------------------------
 TERMOS_FORA_DE_LEGALIZACAO = r"""
     advogad\w*|advocacia|socio\w*|estagi\w*|aprendiz
@@ -224,6 +226,8 @@ RE_LEGALIZACAO = re.compile(r"\b(?:legaliza\w*|paralegal)\b", re.I)
 def legalizacao_fora_do_escopo(nome: str) -> bool:
     """True quando a vaga da aba "Legalização" não é de legalização de empresas."""
     titulo = _sem_acento(nome or "")
+    if RE_ESTAGIO.search(titulo):
+        return True
     if RE_LEGALIZACAO.search(titulo):
         return False
     return bool(RE_FORA_DE_LEGALIZACAO.search(titulo))

@@ -55,6 +55,17 @@ TERMOS = [
 ]
 
 
+# LinkedIn e Catho buscam o termo também na DESCRIÇÃO da vaga: "societário"
+# traz "Auxiliar de Crédito" e "Contador" só porque o texto cita o
+# departamento societário. A Gupy busca só no título, então aqui o título
+# precisa citar a área para a vaga entrar — é o mesmo critério nas quatro fontes.
+RE_TITULO_RELEVANTE = re.compile(r"legaliza|societari|paralegal|alvara|abertura\s+de\s+empresa")
+
+
+def _titulo_relevante(titulo: str) -> bool:
+    return bool(RE_TITULO_RELEVANTE.search(_sem_acento(titulo)))
+
+
 def _sem_acento(texto: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFD", (texto or "").lower())
                    if not unicodedata.combining(c))
@@ -111,6 +122,8 @@ def ler_infojobs(pagina: str, rotulo: str) -> list:
         m_empresa = re.search(r'href="[^"]*/empresa-[^"]*"[^>]*>(.*?)</a>', bloco, re.S)
         m_cidade = re.search(r'<div class="mb-8">\s*([^<]+?)<', bloco)
 
+        if not _titulo_relevante(_limpar(m_titulo.group(1))):
+            continue
         cidade = _limpar(m_cidade.group(1)) if m_cidade else ""
         remota = "remot" in _sem_acento(bloco[:4000]) or "home office" in _sem_acento(bloco[:4000])
         if not _cidade_aceita(cidade, remota):
@@ -157,6 +170,8 @@ def ler_catho(pagina: str, rotulo: str, cidade_busca: str) -> list:
         m_empresa = re.search(r'<span class="text-12">(.*?)</span>', bloco, re.S)
         m_cidade = re.search(r"i_job_location.*?</strong>\s*-\s*([^<]+)<", bloco, re.S)
         m_data = re.search(r"(?:Publicada|Atualizada) em (\d{2}/\d{2})", bloco)
+        if not _titulo_relevante(_limpar(m_link.group(2))):
+            continue
         remota = "home office" in _sem_acento(bloco) or "remot" in _sem_acento(_limpar(m_link.group(2)))
 
         cidade = _limpar(m_cidade.group(1)) if m_cidade else cidade_busca
@@ -210,6 +225,8 @@ def ler_linkedin(pagina: str, rotulo: str) -> list:
         m_data = re.search(r'<time[^>]*datetime="(\d{4}-\d{2}-\d{2})"', bloco)
         m_link = re.search(r'base-card__full-link[^>]*href="([^"?]+)', bloco)
 
+        if not _titulo_relevante(_limpar(m_titulo.group(1))):
+            continue
         cidade = _limpar(m_cidade.group(1)) if m_cidade else ""
         remota = "remot" in _sem_acento(cidade)
         if not _cidade_aceita(cidade, remota):

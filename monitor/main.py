@@ -54,8 +54,7 @@ def main():
     fontes_bloqueadas = set()
     for fonte, termo, rotulo, funcao in gerar_buscas_externas():
         exibicao = f'{fonte} "{termo}" → {rotulo}'
-        print(f"
---- {exibicao} ({DESTINOS['legal']}) ---")
+        print(f"\n--- {exibicao} ({DESTINOS['legal']}) ---")
         if fonte in fontes_bloqueadas:
             print(f"⏭️  {fonte} bloqueou nesta rodada; pulando.")
             resumo.append(("legal", f"{fonte}", None))

@@ -212,6 +212,7 @@ class FiltroDeLegalizacao(unittest.TestCase):
             "Analista de Marca e Licenciamento",
             "Analista de Operações Cloud e Licenciamento",
             "Advogado(a) Sócio(a) de Serviço - Regulatório",
+            "ESTAGIÁRIO(A) — FOLHA DE PAGAMENTO E PARALEGAL",
         ):
             with self.subTest(titulo=titulo):
                 self.assertTrue(descricoes.legalizacao_fora_do_escopo(titulo))
