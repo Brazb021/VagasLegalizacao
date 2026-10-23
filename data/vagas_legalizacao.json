@@ -1,5 +1,22 @@
 [
   {
+    "id": "ca-38967204",
+    "name": "Analista Paralegal",
+    "workplaceType": "on-site",
+    "jobUrl": "https://www.catho.com.br/vagas/analista-paralegal/38967204",
+    "publishedDate": "2026-10-23T23:57:35.000Z",
+    "topic": "Legalização",
+    "data_formatada_br": "23/10/2026 às 20:57",
+    "careerPageName": "Empresa confidencial",
+    "careerPageUrl": "",
+    "careerPageLogo": "",
+    "isRemoteWork": false,
+    "city": "São Paulo",
+    "state": "São Paulo",
+    "country": "",
+    "fonte": "Catho"
+  },
+  {
     "id": "ca-38946975",
     "name": "Assistente Paralegal",
     "workplaceType": "on-site",
@@ -1235,22 +1252,5 @@
     "state": "São Paulo",
     "country": "",
     "fonte": "Catho"
-  },
-  {
-    "id": "li-4470945751",
-    "name": "Assistente Paralegal",
-    "workplaceType": "on-site",
-    "jobUrl": "https://br.linkedin.com/jobs/view/assistente-paralegal-at-jobbol-4470945751",
-    "publishedDate": "2026-09-23T15:00:00.000Z",
-    "topic": "Paralegal",
-    "data_formatada_br": "23/09/2026 às 12:00",
-    "careerPageName": "Jobbol",
-    "careerPageUrl": "",
-    "careerPageLogo": "",
-    "isRemoteWork": false,
-    "city": "São Paulo",
-    "state": "São Paulo",
-    "country": "",
-    "fonte": "LinkedIn"
   }
 ]
