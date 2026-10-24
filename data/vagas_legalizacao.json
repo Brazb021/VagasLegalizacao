@@ -289,6 +289,23 @@
     "fonte": "LinkedIn"
   },
   {
+    "id": "li-4481757824",
+    "name": "Auxiliar Paralegal",
+    "workplaceType": "on-site",
+    "jobUrl": "https://br.linkedin.com/jobs/view/auxiliar-paralegal-at-cordeiro-lima-e-advogados-4481757824",
+    "publishedDate": "2026-10-20T15:00:00.000Z",
+    "topic": "Paralegal",
+    "data_formatada_br": "20/10/2026 às 12:00",
+    "careerPageName": "Cordeiro, Lima e Advogados",
+    "careerPageUrl": "",
+    "careerPageLogo": "",
+    "isRemoteWork": false,
+    "city": "São Paulo",
+    "state": "São Paulo",
+    "country": "",
+    "fonte": "LinkedIn"
+  },
+  {
     "id": "li-4478617310",
     "name": "Assistente Paralegal",
     "workplaceType": "on-site",
@@ -1235,22 +1252,5 @@
     "state": "São Paulo",
     "country": "",
     "fonte": "InfoJobs"
-  },
-  {
-    "id": "ca-38552056",
-    "name": "Auxiliar Paralegal",
-    "workplaceType": "on-site",
-    "jobUrl": "https://www.catho.com.br/vagas/auxiliar-paralegal/38552056",
-    "publishedDate": "2026-09-24T15:00:00.000Z",
-    "topic": "Paralegal",
-    "data_formatada_br": "24/09/2026 às 12:00",
-    "careerPageName": "Empresa confidencial",
-    "careerPageUrl": "",
-    "careerPageLogo": "",
-    "isRemoteWork": false,
-    "city": "São Paulo",
-    "state": "São Paulo",
-    "country": "",
-    "fonte": "Catho"
   }
 ]
