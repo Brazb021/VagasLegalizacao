@@ -1,5 +1,22 @@
 [
   {
+    "id": "ca-39030050",
+    "name": "Paralegal Júnior",
+    "workplaceType": "on-site",
+    "jobUrl": "https://www.catho.com.br/vagas/paralegal-junior/39030050",
+    "publishedDate": "2026-10-28T23:16:50.000Z",
+    "topic": "Paralegal",
+    "data_formatada_br": "28/10/2026 às 20:16",
+    "careerPageName": "Prohabitar",
+    "careerPageUrl": "",
+    "careerPageLogo": "",
+    "isRemoteWork": false,
+    "city": "São Paulo",
+    "state": "São Paulo",
+    "country": "",
+    "fonte": "Catho"
+  },
+  {
     "id": "12789153",
     "name": "COORDENADOR(A) JURÍDICO SR. (JURÍDICO DE CONTRATOS/SOCIETÁRIO)",
     "workplaceType": "on-site",
@@ -1286,22 +1303,5 @@
     "state": "São Paulo",
     "country": "",
     "fonte": "Catho"
-  },
-  {
-    "id": "ij-12063079",
-    "name": "Assistente De Legalização",
-    "workplaceType": "on-site",
-    "jobUrl": "https://www.infojobs.com.br/vaga-de-assistente-legalizacao-em-sao-paulo__12063079.aspx",
-    "publishedDate": "2026-09-28T08:00:00.000Z",
-    "topic": "Legalização",
-    "data_formatada_br": "28/09/2026 às 05:00",
-    "careerPageName": "EMPREGGA TECNOLOGIA",
-    "careerPageUrl": "",
-    "careerPageLogo": "",
-    "isRemoteWork": false,
-    "city": "São Paulo",
-    "state": "São Paulo",
-    "country": "",
-    "fonte": "InfoJobs"
   }
 ]
