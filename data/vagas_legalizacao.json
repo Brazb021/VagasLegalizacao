@@ -1254,39 +1254,5 @@
     "state": "São Paulo",
     "country": "",
     "fonte": "InfoJobs"
-  },
-  {
-    "id": "ca-38770358",
-    "name": "Auxiliar de Legalização",
-    "workplaceType": "on-site",
-    "jobUrl": "https://www.catho.com.br/vagas/auxiliar-de-legalizacao/38770358",
-    "publishedDate": "2026-10-09T15:00:00.000Z",
-    "topic": "Legalização",
-    "data_formatada_br": "09/10/2026 às 12:00",
-    "careerPageName": "SOLUTTA",
-    "careerPageUrl": "",
-    "careerPageLogo": "",
-    "isRemoteWork": false,
-    "city": "São Paulo",
-    "state": "São Paulo",
-    "country": "",
-    "fonte": "Catho"
-  },
-  {
-    "id": "ca-38752608",
-    "name": "Coordenador(a) de Legalização de Empresas - Societário",
-    "workplaceType": "on-site",
-    "jobUrl": "https://www.catho.com.br/vagas/coordenadora-de-legalizacao-de-empresas-societario/38752608",
-    "publishedDate": "2026-10-09T15:00:00.000Z",
-    "topic": "Legalização",
-    "data_formatada_br": "09/10/2026 às 12:00",
-    "careerPageName": "TREVO LEGALIZA",
-    "careerPageUrl": "",
-    "careerPageLogo": "",
-    "isRemoteWork": false,
-    "city": "São Paulo",
-    "state": "São Paulo",
-    "country": "",
-    "fonte": "Catho"
   }
 ]
