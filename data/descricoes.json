@@ -949,294 +949,6 @@
       }
     ]
   },
-  "12853215": {
-    "fonte": "html",
-    "secoes": [
-      {
-        "titulo": "Responsabilidades",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Como será o seu dia a dia"
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "(spoiler: gerar muitos sorrisos faz parte do pacote)!"
-          },
-          {
-            "tipo": "item",
-            "texto": "A gente contará com você para as atividades operacionais do restaurante: preparar e montar os pedidos; atendimento ao cliente e, também, garantir que ambiente e equipamentos estejam sempre limpos. Confira detalhes!"
-          },
-          {
-            "tipo": "item",
-            "texto": "Atender aos clientes é uma das partes mais importantes do trabalho: é nossa prioridade gerar sorrisos! Você, como atendente, será responsável pelo atendimento nos nossos restaurantes, com atividades como gerar os pedidos e receber o pagamento, inclusive no nosso Drive-Tudo."
-          },
-          {
-            "tipo": "item",
-            "texto": "Preparar as delícias que saem da nossa cozinha: sanduíches, McFritas, bebidas e sobremesas, como a nossa famosa casquinha. 🍦"
-          },
-          {
-            "tipo": "item",
-            "texto": "Você será treinado para operar equipamentos apropriados e, também, sobre como manter nosso super padrão de qualidade, higiene, limpeza e segurança."
-          },
-          {
-            "tipo": "item",
-            "texto": "Limpar a e higienizar nossos equipamentos, pisos, cadeiras, mesas e instalações do restaurante e arredores, sempre de acordo com as orientações e manual de operação."
-          },
-          {
-            "tipo": "item",
-            "texto": "Participar de nossos programas de treinamento, integração e comunicação por meio de reuniões, webinares, sessões de participação e cursos técnicos. O objetivo é garantir que você esteja sempre atualizado tanto na parte técnica quanto operacional."
-          }
-        ]
-      },
-      {
-        "titulo": "Requisitos",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Ingrediente que não pode faltar 🍔"
-          },
-          {
-            "tipo": "item",
-            "texto": "Ensino médio cursando ou completo."
-          }
-        ]
-      },
-      {
-        "titulo": "Informações adicionais",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Benefícios que deixam tudo ainda mais gostoso 😋"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Médica"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Odontológica;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Vale transporte;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Refeição no local;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Gympass;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Seguro de vida;"
-          },
-          {
-            "tipo": "item",
-            "texto": "PPR - Participação nos lucros."
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "Pronto para uma experiência tão inesquecível quanto um Big Mac? Se inscreva! ⌨"
-          }
-        ]
-      }
-    ]
-  },
-  "12853214": {
-    "fonte": "html",
-    "secoes": [
-      {
-        "titulo": "Responsabilidades",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Como será o seu dia a dia"
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "(spoiler: gerar muitos sorrisos faz parte do pacote)!"
-          },
-          {
-            "tipo": "item",
-            "texto": "A gente contará com você para as atividades operacionais do restaurante: preparar e montar os pedidos; atendimento ao cliente e, também, garantir que ambiente e equipamentos estejam sempre limpos. Confira detalhes!"
-          },
-          {
-            "tipo": "item",
-            "texto": "Atender aos clientes é uma das partes mais importantes do trabalho: é nossa prioridade gerar sorrisos! Você, como atendente, será responsável pelo atendimento nos nossos restaurantes, com atividades como gerar os pedidos e receber o pagamento, inclusive no nosso Drive-Tudo."
-          },
-          {
-            "tipo": "item",
-            "texto": "Preparar as delícias que saem da nossa cozinha: sanduíches, McFritas, bebidas e sobremesas, como a nossa famosa casquinha. 🍦"
-          },
-          {
-            "tipo": "item",
-            "texto": "Você será treinado para operar equipamentos apropriados e, também, sobre como manter nosso super padrão de qualidade, higiene, limpeza e segurança."
-          },
-          {
-            "tipo": "item",
-            "texto": "Limpar a e higienizar nossos equipamentos, pisos, cadeiras, mesas e instalações do restaurante e arredores, sempre de acordo com as orientações e manual de operação."
-          },
-          {
-            "tipo": "item",
-            "texto": "Participar de nossos programas de treinamento, integração e comunicação por meio de reuniões, webinares, sessões de participação e cursos técnicos. O objetivo é garantir que você esteja sempre atualizado tanto na parte técnica quanto operacional."
-          }
-        ]
-      },
-      {
-        "titulo": "Requisitos",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Ingrediente que não pode faltar 🍔"
-          },
-          {
-            "tipo": "item",
-            "texto": "Ensino médio cursando ou completo."
-          }
-        ]
-      },
-      {
-        "titulo": "Informações adicionais",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Benefícios que deixam tudo ainda mais gostoso 😋"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Médica"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Odontológica;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Vale transporte;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Refeição no local;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Gympass;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Seguro de vida;"
-          },
-          {
-            "tipo": "item",
-            "texto": "PPR - Participação nos lucros."
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "Pronto para uma experiência tão inesquecível quanto um Big Mac? Se inscreva! ⌨"
-          }
-        ]
-      }
-    ]
-  },
-  "12853212": {
-    "fonte": "html",
-    "secoes": [
-      {
-        "titulo": "Responsabilidades",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Como será o seu dia a dia"
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "(spoiler: gerar muitos sorrisos faz parte do pacote)!"
-          },
-          {
-            "tipo": "item",
-            "texto": "A gente contará com você para as atividades operacionais do restaurante: preparar e montar os pedidos; atendimento ao cliente e, também, garantir que ambiente e equipamentos estejam sempre limpos. Confira detalhes!"
-          },
-          {
-            "tipo": "item",
-            "texto": "Atender aos clientes é uma das partes mais importantes do trabalho: é nossa prioridade gerar sorrisos! Você, como atendente, será responsável pelo atendimento nos nossos restaurantes, com atividades como gerar os pedidos e receber o pagamento, inclusive no nosso Drive-Tudo."
-          },
-          {
-            "tipo": "item",
-            "texto": "Preparar as delícias que saem da nossa cozinha: sanduíches, McFritas, bebidas e sobremesas, como a nossa famosa casquinha. 🍦"
-          },
-          {
-            "tipo": "item",
-            "texto": "Você será treinado para operar equipamentos apropriados e, também, sobre como manter nosso super padrão de qualidade, higiene, limpeza e segurança."
-          },
-          {
-            "tipo": "item",
-            "texto": "Limpar a e higienizar nossos equipamentos, pisos, cadeiras, mesas e instalações do restaurante e arredores, sempre de acordo com as orientações e manual de operação."
-          },
-          {
-            "tipo": "item",
-            "texto": "Participar de nossos programas de treinamento, integração e comunicação por meio de reuniões, webinares, sessões de participação e cursos técnicos. O objetivo é garantir que você esteja sempre atualizado tanto na parte técnica quanto operacional."
-          }
-        ]
-      },
-      {
-        "titulo": "Requisitos",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Ingrediente que não pode faltar 🍔"
-          },
-          {
-            "tipo": "item",
-            "texto": "Ensino médio cursando ou completo."
-          }
-        ]
-      },
-      {
-        "titulo": "Informações adicionais",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Benefícios que deixam tudo ainda mais gostoso 😋"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Médica"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Odontológica;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Vale transporte;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Refeição no local;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Gympass;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Seguro de vida;"
-          },
-          {
-            "tipo": "item",
-            "texto": "PPR - Participação nos lucros."
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "Pronto para uma experiência tão inesquecível quanto um Big Mac? Se inscreva! ⌨"
-          }
-        ]
-      }
-    ]
-  },
   "12853594": {
     "fonte": "html",
     "secoes": [
@@ -129385,6 +129097,198 @@
           {
             "tipo": "texto",
             "texto": "Programa de Lucros e Resultados."
+          }
+        ]
+      }
+    ]
+  },
+  "12894017": {
+    "fonte": "html",
+    "secoes": [
+      {
+        "titulo": "Responsabilidades",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Como será o seu dia a dia"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "(spoiler: gerar muitos sorrisos faz parte do pacote)!"
+          },
+          {
+            "tipo": "item",
+            "texto": "A gente contará com você para as atividades operacionais do restaurante: preparar e montar os pedidos; atendimento ao cliente e, também, garantir que ambiente e equipamentos estejam sempre limpos. Confira detalhes!"
+          },
+          {
+            "tipo": "item",
+            "texto": "Atender aos clientes é uma das partes mais importantes do trabalho: é nossa prioridade gerar sorrisos! Você, como atendente, será responsável pelo atendimento nos nossos restaurantes, com atividades como gerar os pedidos e receber o pagamento, inclusive no nosso Drive-Tudo."
+          },
+          {
+            "tipo": "item",
+            "texto": "Preparar as delícias que saem da nossa cozinha: sanduíches, McFritas, bebidas e sobremesas, como a nossa famosa casquinha. 🍦"
+          },
+          {
+            "tipo": "item",
+            "texto": "Você será treinado para operar equipamentos apropriados e, também, sobre como manter nosso super padrão de qualidade, higiene, limpeza e segurança."
+          },
+          {
+            "tipo": "item",
+            "texto": "Limpar a e higienizar nossos equipamentos, pisos, cadeiras, mesas e instalações do restaurante e arredores, sempre de acordo com as orientações e manual de operação."
+          },
+          {
+            "tipo": "item",
+            "texto": "Participar de nossos programas de treinamento, integração e comunicação por meio de reuniões, webinares, sessões de participação e cursos técnicos. O objetivo é garantir que você esteja sempre atualizado tanto na parte técnica quanto operacional."
+          }
+        ]
+      },
+      {
+        "titulo": "Requisitos",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Ingrediente que não pode faltar 🍔"
+          },
+          {
+            "tipo": "item",
+            "texto": "Ensino médio cursando ou completo."
+          }
+        ]
+      },
+      {
+        "titulo": "Informações adicionais",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Benefícios que deixam tudo ainda mais gostoso 😋"
+          },
+          {
+            "tipo": "item",
+            "texto": "Assistência Médica"
+          },
+          {
+            "tipo": "item",
+            "texto": "Assistência Odontológica;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Vale transporte;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Refeição no local;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Gympass;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Seguro de vida;"
+          },
+          {
+            "tipo": "item",
+            "texto": "PPR - Participação nos lucros."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Pronto para uma experiência tão inesquecível quanto um Big Mac? Se inscreva! ⌨"
+          }
+        ]
+      }
+    ]
+  },
+  "12892453": {
+    "fonte": "texto",
+    "secoes": [
+      {
+        "titulo": "Responsabilidades",
+        "blocos": [
+          {
+            "tipo": "item",
+            "texto": "Realizar a abertura dos atendimentos de Assistência 24h de Auto, Vida e Residencial aos segurados entendendo suas solicitações e dúvidas"
+          },
+          {
+            "tipo": "item",
+            "texto": "Realizar abertura dos atendimentos conforme problemas e solicitações dos segurados"
+          },
+          {
+            "tipo": "item",
+            "texto": "Realizar o acionamento das assistências e negociações com prestadores"
+          },
+          {
+            "tipo": "item",
+            "texto": "Realizar o atendimento aos prestadores para os serviços em andamento"
+          },
+          {
+            "tipo": "item",
+            "texto": "Recepcionar as ligações de continuidade, propor soluções e direcionar a necessidade para tratativa dos gestores ou demais níveis de atendimento, quando a solução não for possível de imediato."
+          }
+        ]
+      },
+      {
+        "titulo": "Requisitos",
+        "blocos": [
+          {
+            "tipo": "item",
+            "texto": "Ensino médio completo"
+          },
+          {
+            "tipo": "item",
+            "texto": "Conhecimento em Pacote Office"
+          },
+          {
+            "tipo": "item",
+            "texto": "Desejável experiência com atendimento ao cliente"
+          },
+          {
+            "tipo": "item",
+            "texto": "Disponibilidade para atuar em escala 6x1."
+          }
+        ]
+      },
+      {
+        "titulo": "Informações adicionais",
+        "blocos": [
+          {
+            "tipo": "item",
+            "texto": "O contrato de trabalho é gerenciado pela Jobcenter do Brasil, empresa parceira paras as nossas vagas temporárias!"
+          },
+          {
+            "tipo": "item",
+            "texto": "E para dar aquela \"mãozinha\" no dia a dia, compartilhamos os benefícios ofertados em contratos determinados:🏢 Modelo de trabalho híbrido"
+          },
+          {
+            "tipo": "item",
+            "texto": "🍕 Vale Refeição"
+          },
+          {
+            "tipo": "item",
+            "texto": "🚌 Vale transporte"
+          },
+          {
+            "tipo": "item",
+            "texto": "📄 Seguro de vida."
+          },
+          {
+            "tipo": "item",
+            "texto": "Acreditamos na diversidade como motor da #Inovação!"
+          },
+          {
+            "tipo": "item",
+            "texto": "Por isso, não fazemos distinção de cor, nacionalidade, idade, identidade de gênero, se há algum tipo de deficiência ou não."
+          },
+          {
+            "tipo": "item",
+            "texto": "O que realmente importa é ter gente apaixonada pelo que faz e que \"joga junto\"."
+          },
+          {
+            "tipo": "item",
+            "texto": "O nosso Jeito Tokio de Ser é plural e a contribuição de cada um fortalece o nosso Clima de trabalho e nos faz ser uma das Melhores Empresas para Trabalhar no Brasil!"
+          },
+          {
+            "tipo": "item",
+            "texto": "Venha fazer parte do nosso time!"
           }
         ]
       }
