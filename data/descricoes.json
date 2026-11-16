@@ -949,102 +949,6 @@
       }
     ]
   },
-  "12853938": {
-    "fonte": "html",
-    "secoes": [
-      {
-        "titulo": "Responsabilidades",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Como será o seu dia a dia"
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "(spoiler: gerar muitos sorrisos faz parte do pacote)!"
-          },
-          {
-            "tipo": "item",
-            "texto": "A gente contará com você para as atividades operacionais do restaurante: preparar e montar os pedidos; atendimento ao cliente e, também, garantir que ambiente e equipamentos estejam sempre limpos. Confira detalhes!"
-          },
-          {
-            "tipo": "item",
-            "texto": "Atender aos clientes é uma das partes mais importantes do trabalho: é nossa prioridade gerar sorrisos! Você, como atendente, será responsável pelo atendimento nos nossos restaurantes, com atividades como gerar os pedidos e receber o pagamento, inclusive no nosso Drive-Tudo."
-          },
-          {
-            "tipo": "item",
-            "texto": "Preparar as delícias que saem da nossa cozinha: sanduíches, McFritas, bebidas e sobremesas, como a nossa famosa casquinha. 🍦"
-          },
-          {
-            "tipo": "item",
-            "texto": "Você será treinado para operar equipamentos apropriados e, também, sobre como manter nosso super padrão de qualidade, higiene, limpeza e segurança."
-          },
-          {
-            "tipo": "item",
-            "texto": "Limpar a e higienizar nossos equipamentos, pisos, cadeiras, mesas e instalações do restaurante e arredores, sempre de acordo com as orientações e manual de operação."
-          },
-          {
-            "tipo": "item",
-            "texto": "Participar de nossos programas de treinamento, integração e comunicação por meio de reuniões, webinares, sessões de participação e cursos técnicos. O objetivo é garantir que você esteja sempre atualizado tanto na parte técnica quanto operacional."
-          }
-        ]
-      },
-      {
-        "titulo": "Requisitos",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Ingrediente que não pode faltar 🍔"
-          },
-          {
-            "tipo": "item",
-            "texto": "Ensino médio cursando ou completo."
-          }
-        ]
-      },
-      {
-        "titulo": "Informações adicionais",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Benefícios que deixam tudo ainda mais gostoso 😋"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Médica"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Odontológica;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Vale transporte;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Refeição no local;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Gympass;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Seguro de vida;"
-          },
-          {
-            "tipo": "item",
-            "texto": "PPR - Participação nos lucros."
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "Pronto para uma experiência tão inesquecível quanto um Big Mac? Se inscreva! ⌨"
-          }
-        ]
-      }
-    ]
-  },
   "12860856": {
     "fonte": "html",
     "secoes": [
@@ -129204,6 +129108,616 @@
           {
             "tipo": "item",
             "texto": "Ensino médio cursando ou completo."
+          }
+        ]
+      },
+      {
+        "titulo": "Informações adicionais",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Benefícios que deixam tudo ainda mais gostoso 😋"
+          },
+          {
+            "tipo": "item",
+            "texto": "Assistência Médica"
+          },
+          {
+            "tipo": "item",
+            "texto": "Assistência Odontológica;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Vale transporte;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Refeição no local;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Gympass;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Seguro de vida;"
+          },
+          {
+            "tipo": "item",
+            "texto": "PPR - Participação nos lucros."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Pronto para uma experiência tão inesquecível quanto um Big Mac? Se inscreva! ⌨"
+          }
+        ]
+      }
+    ]
+  },
+  "12857788": {
+    "fonte": "html",
+    "secoes": [
+      {
+        "titulo": "Responsabilidades",
+        "blocos": [
+          {
+            "tipo": "texto",
+            "texto": "Você está pronto(a) para dar o primeiro passo na sua carreira? Estamos em busca de um(a) Jovem Aprendiz que esteja ansioso para aprender e crescer em um ambiente dinâmico e acolhedor!"
+          },
+          {
+            "tipo": "texto",
+            "texto": "O que oferecemos:"
+          },
+          {
+            "tipo": "item",
+            "texto": "Uma oportunidade incrível de aprendizado prático, onde você poderá desenvolver habilidades essenciais para sua trajetória profissional."
+          },
+          {
+            "tipo": "item",
+            "texto": "A chance de trabalhar ao lado de uma equipe experiente, recebendo orientação direta dos analistas e outros profissionais do time."
+          },
+          {
+            "tipo": "item",
+            "texto": "Um ambiente colaborativo que valoriza a criatividade, a inovação e o crescimento pessoal."
+          },
+          {
+            "tipo": "texto",
+            "texto": "Responsabilidades:"
+          },
+          {
+            "tipo": "item",
+            "texto": "Mergulhar nos processos administrativos da empresa, aprendendo sobre cada etapa com dedicação."
+          },
+          {
+            "tipo": "item",
+            "texto": "Apoiar os analistas nas demandas diárias, contribuindo ativamente para o sucesso das operações administrativas."
+          },
+          {
+            "tipo": "item",
+            "texto": "Participar de projetos desafiadores que vão enriquecer seu conhecimento e experiência no mundo corporativo."
+          },
+          {
+            "tipo": "texto",
+            "texto": "Se você é curioso(a), motivado(a) e deseja construir uma base sólida para sua carreira enquanto faz parte de um time incrível, essa vaga é perfeita para você! Venha crescer conosco!"
+          }
+        ]
+      },
+      {
+        "titulo": "Informações adicionais",
+        "blocos": [
+          {
+            "tipo": "texto",
+            "texto": "Hoje na AMBEV nós trabalhamos com os melhores benefícios para você e também para os seus dependentes legais! Aqui na companhia nós conseguimos te proporcionar:"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Mais cuidado com a sua saúde"
+          },
+          {
+            "tipo": "texto",
+            "texto": "através de Plano Médico, Odontológico, Telemedicina, Seguro de Vida e Gympass"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Saúde mental"
+          },
+          {
+            "tipo": "texto",
+            "texto": "com a Telemedicina Dasa"
+          },
+          {
+            "tipo": "item",
+            "texto": "Reuniões de final de ano com a família ainda mais prazerosas, pois oferecemos"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Cesta de Natal"
+          },
+          {
+            "tipo": "texto",
+            "texto": "e ainda brinquedo para quem tem filhos"
+          },
+          {
+            "tipo": "item",
+            "texto": "A possibilidade de você fazer um bom mercado ou comer no restaurante que você gosta com"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Vale Alimentação ou Refeição"
+          },
+          {
+            "tipo": "texto",
+            "texto": ", pois você poderá optar por um destes benefícios"
+          },
+          {
+            "tipo": "item",
+            "texto": "O"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "vale transporte"
+          },
+          {
+            "tipo": "texto",
+            "texto": "é opcional e você pode conferir no modelo da vaga"
+          },
+          {
+            "tipo": "item",
+            "texto": "Abono assiduidade"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Auxílio Creche"
+          },
+          {
+            "tipo": "texto",
+            "texto": "ou"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Auxílio babá﻿"
+          },
+          {
+            "tipo": "texto",
+            "texto": "Além de sonhar, se desenvolver, construir e crescer dentro de um ambiente meritocrático e inclusivo e ser capaz de fazer a diferença unindo as pessoas por um mundo melhor!"
+          },
+          {
+            "tipo": "texto",
+            "texto": "﻿ℹ️ Tratamento de Dados Pessoais:"
+          },
+          {
+            "tipo": "texto",
+            "texto": "Para saber mais sobre como tratamos os seus dados pessoais no contexto de nossos processos seletivos, acesse nossa Política de Privacidade para Candidatos aqui: https://www.ambev.com.br/sites/g/files/wnfebl12286/files/Projetos/Ambev-Institucional/politicas-de-privacidade-candidatos-2026.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "12835028": {
+    "fonte": "html",
+    "secoes": [
+      {
+        "titulo": "Responsabilidades",
+        "blocos": [
+          {
+            "tipo": "texto",
+            "texto": "Estamos em busca de um(a) Técnico de Segurança do Trabalho comprometido(a) e proativo(a) para se juntar à nossa equipe! Se você tem formação técnica na área, experiência prática e deseja atuar em um ambiente dinâmico com foco na segurança, essa é a sua oportunidade!"
+          },
+          {
+            "tipo": "texto",
+            "texto": "Responsabilidades:"
+          },
+          {
+            "tipo": "item",
+            "texto": "Planejar as ações anuais de Segurança, alinhando-as às diretrizes da Ambev."
+          },
+          {
+            "tipo": "item",
+            "texto": "Realizar treinamentos conforme o cronograma anual, garantindo que todos os colaboradores estejam capacitados."
+          },
+          {
+            "tipo": "item",
+            "texto": "Conduzir inspeções de segurança nas áreas internas da unidade para identificar oportunidades de melhoria."
+          },
+          {
+            "tipo": "item",
+            "texto": "Acompanhar a CIPA (Comissão Interna de Prevenção de Acidentes) assegurando que esteja adequada às condições legais vigentes."
+          },
+          {
+            "tipo": "item",
+            "texto": "Ser um(a) verdadeiro(a) embaixador(a) do cumprimento dos requisitos legais relacionados à segurança no trabalho."
+          },
+          {
+            "tipo": "item",
+            "texto": "Monitorar a gestão de segurança dos parceiros da unidade, garantindo conformidade com as normas estabelecidas."
+          },
+          {
+            "tipo": "item",
+            "texto": "Acompanhar os exames periódicos dos colaboradores e gerenciar informações sobre acidentes e demais dados relevantes à segurança."
+          },
+          {
+            "tipo": "item",
+            "texto": "Aprimorar análises de risco das diferentes rotas de vendas para garantir a integridade dos colaboradores durante suas atividades externas."
+          },
+          {
+            "tipo": "item",
+            "texto": "Proporcionar condições seguras para usuários de veículos e equipes operacionais, criando planos eficazes para reduzir acidentes e situações inseguras na unidade."
+          },
+          {
+            "tipo": "item",
+            "texto": "Monitorar o cumprimento das exigências relacionadas à Segurança pelos parceiros envolvidos nas operações."
+          },
+          {
+            "tipo": "texto",
+            "texto": "Se você é uma pessoa organizada, com habilidades sólidas em análise administrativa voltada à segurança e está pronta para fazer parte dessa missão vital dentro da empresa, queremos conhecer você! Venha contribuir conosco pela saúde e bem-estar no ambiente laboral!"
+          }
+        ]
+      },
+      {
+        "titulo": "Requisitos",
+        "blocos": [
+          {
+            "tipo": "texto",
+            "texto": "É desejável:"
+          },
+          {
+            "tipo": "item",
+            "texto": "Experiência como técnico(a) em segurança por 6 meses;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Facilidade no relacionamento interpessoal;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Disposição para realizar trabalhos externos quando necessário."
+          },
+          {
+            "tipo": "texto",
+            "texto": "É necessário:"
+          },
+          {
+            "tipo": "item",
+            "texto": "Ensino Médio Completo."
+          },
+          {
+            "tipo": "item",
+            "texto": "Ensino Técnico Completo em Segurança do Trabalho e o devido registro para atuação."
+          },
+          {
+            "tipo": "item",
+            "texto": "Conhecimento intermediário em Excel para construção de planilhas complexas, fórmulas, tabelas dinâmicas e painéis analíticos."
+          },
+          {
+            "tipo": "item",
+            "texto": "Possuir CNH A e B DEFINITIVA e sem acumular mais de 16 pontos ou possuir uma multa gravíssima nos últimos 12 meses."
+          }
+        ]
+      },
+      {
+        "titulo": "Informações adicionais",
+        "blocos": [
+          {
+            "tipo": "texto",
+            "texto": "Hoje na AMBEV nós trabalhamos com os melhores benefícios para você e também para os seus dependentes legais! Aqui na companhia nós conseguimos te proporcionar:"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Mais cuidado com a sua saúde"
+          },
+          {
+            "tipo": "texto",
+            "texto": "através de Plano Médico, Odontológico, Telemedicina, Seguro de Vida e Gympass"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Saúde mental"
+          },
+          {
+            "tipo": "texto",
+            "texto": "com a Telemedicina Dasa"
+          },
+          {
+            "tipo": "item",
+            "texto": "Reuniões de final de ano com a família ainda mais prazerosas, pois oferecemos"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Cesta de Natal"
+          },
+          {
+            "tipo": "texto",
+            "texto": "e ainda brinquedo para quem tem filhos"
+          },
+          {
+            "tipo": "item",
+            "texto": "Proteção financeira com a nossa"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "previdência privada"
+          },
+          {
+            "tipo": "item",
+            "texto": "A possibilidade de você fazer um bom mercado ou comer no restaurante que você gosta com"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Vale Alimentação ou Refeição"
+          },
+          {
+            "tipo": "texto",
+            "texto": ", pois você poderá optar por um destes benefícios"
+          },
+          {
+            "tipo": "item",
+            "texto": "O"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "vale transporte"
+          },
+          {
+            "tipo": "texto",
+            "texto": "é opcional e você pode conferir no modelo da vaga"
+          },
+          {
+            "tipo": "item",
+            "texto": "Abono assiduidade"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Auxílio Creche"
+          },
+          {
+            "tipo": "texto",
+            "texto": "ou"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Auxílio babá﻿"
+          },
+          {
+            "tipo": "texto",
+            "texto": "Além de sonhar, se desenvolver, construir e crescer dentro de um ambiente meritocrático e inclusivo e ser capaz de fazer a diferença unindo as pessoas por um mundo melhor!"
+          },
+          {
+            "tipo": "texto",
+            "texto": "ℹ️ Tratamento de Dados Pessoais:"
+          },
+          {
+            "tipo": "texto",
+            "texto": "Para saber mais sobre como tratamos os seus dados pessoais no contexto de nossos processos seletivos, acesse nossa Política de Privacidade para Candidatos aqui: https://www.ambev.com.br/sites/g/files/wnfebl12286/files/Projetos/Ambev-Institucional/politicas-de-privacidade-candidatos-2026.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "12739002": {
+    "fonte": "html",
+    "secoes": [
+      {
+        "titulo": "Responsabilidades",
+        "blocos": [
+          {
+            "tipo": "texto",
+            "texto": "Você está pronto(a) para dar o primeiro passo na sua carreira? Estamos em busca de um(a) Jovem Aprendiz que esteja ansioso para aprender e crescer em um ambiente dinâmico e acolhedor!"
+          },
+          {
+            "tipo": "texto",
+            "texto": "O que oferecemos:"
+          },
+          {
+            "tipo": "item",
+            "texto": "Uma oportunidade incrível de aprendizado prático, onde você poderá desenvolver habilidades essenciais para sua trajetória profissional."
+          },
+          {
+            "tipo": "item",
+            "texto": "A chance de trabalhar ao lado de uma equipe experiente, recebendo orientação direta dos analistas e outros profissionais do time."
+          },
+          {
+            "tipo": "item",
+            "texto": "Um ambiente colaborativo que valoriza a criatividade, a inovação e o crescimento pessoal."
+          },
+          {
+            "tipo": "texto",
+            "texto": "Responsabilidades:"
+          },
+          {
+            "tipo": "item",
+            "texto": "Mergulhar nos processos administrativos da empresa, aprendendo sobre cada etapa com dedicação."
+          },
+          {
+            "tipo": "item",
+            "texto": "Apoiar os analistas nas demandas diárias, contribuindo ativamente para o sucesso das operações administrativas."
+          },
+          {
+            "tipo": "item",
+            "texto": "Participar de projetos desafiadores que vão enriquecer seu conhecimento e experiência no mundo corporativo."
+          },
+          {
+            "tipo": "texto",
+            "texto": "Se você é curioso(a), motivado(a) e deseja construir uma base sólida para sua carreira enquanto faz parte de um time incrível, essa vaga é perfeita para você! Venha crescer conosco!"
+          }
+        ]
+      },
+      {
+        "titulo": "Informações adicionais",
+        "blocos": [
+          {
+            "tipo": "texto",
+            "texto": "Hoje na AMBEV nós trabalhamos com os melhores benefícios para você e também para os seus dependentes legais! Aqui na companhia nós conseguimos te proporcionar:"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Mais cuidado com a sua saúde"
+          },
+          {
+            "tipo": "texto",
+            "texto": "através de Plano Médico, Odontológico, Telemedicina, Seguro de Vida e Gympass"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Saúde mental"
+          },
+          {
+            "tipo": "texto",
+            "texto": "com a Telemedicina Dasa"
+          },
+          {
+            "tipo": "item",
+            "texto": "Reuniões de final de ano com a família ainda mais prazerosas, pois oferecemos"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Cesta de Natal"
+          },
+          {
+            "tipo": "texto",
+            "texto": "e ainda brinquedo para quem tem filhos"
+          },
+          {
+            "tipo": "item",
+            "texto": "A possibilidade de você fazer um bom mercado ou comer no restaurante que você gosta com"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Vale Alimentação ou Refeição"
+          },
+          {
+            "tipo": "texto",
+            "texto": ", pois você poderá optar por um destes benefícios"
+          },
+          {
+            "tipo": "item",
+            "texto": "O"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "vale transporte"
+          },
+          {
+            "tipo": "texto",
+            "texto": "é opcional e você pode conferir no modelo da vaga"
+          },
+          {
+            "tipo": "item",
+            "texto": "Abono assiduidade"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Auxílio Creche"
+          },
+          {
+            "tipo": "texto",
+            "texto": "ou"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Auxílio babá﻿"
+          },
+          {
+            "tipo": "texto",
+            "texto": "Além de sonhar, se desenvolver, construir e crescer dentro de um ambiente meritocrático e inclusivo e ser capaz de fazer a diferença unindo as pessoas por um mundo melhor!"
+          },
+          {
+            "tipo": "texto",
+            "texto": "﻿ℹ️ Tratamento de Dados Pessoais:"
+          },
+          {
+            "tipo": "texto",
+            "texto": "Para saber mais sobre como tratamos os seus dados pessoais no contexto de nossos processos seletivos, acesse nossa Política de Privacidade para Candidatos aqui: https://www.ambev.com.br/sites/g/files/wnfebl12286/files/Projetos/Ambev-Institucional/politicas-de-privacidade-candidatos-2026.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "12894677": {
+    "fonte": "html",
+    "secoes": [
+      {
+        "titulo": "Responsabilidades",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Como será o seu dia a dia"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "(spoiler: gerar muitos sorrisos faz parte do pacote)!"
+          },
+          {
+            "tipo": "item",
+            "texto": "A gente contará com você para as atividades operacionais do restaurante: preparar e montar os pedidos; atendimento ao cliente e, também, garantir que ambiente e equipamentos estejam sempre limpos. Confira detalhes!"
+          },
+          {
+            "tipo": "item",
+            "texto": "Atender aos clientes é uma das partes mais importantes do trabalho: é nossa prioridade gerar sorrisos! Você, como atendente, será responsável pelo atendimento nos nossos restaurantes, com atividades como gerar os pedidos e receber o pagamento, inclusive no nosso Drive-Tudo."
+          },
+          {
+            "tipo": "item",
+            "texto": "Preparar as delícias que saem da nossa cozinha: sanduíches, McFritas, bebidas e sobremesas, como a nossa famosa casquinha. 🍦"
+          },
+          {
+            "tipo": "item",
+            "texto": "Você será treinado para operar equipamentos apropriados e, também, sobre como manter nosso super padrão de qualidade, higiene, limpeza e segurança."
+          },
+          {
+            "tipo": "item",
+            "texto": "Limpar a e higienizar nossos equipamentos, pisos, cadeiras, mesas e instalações do restaurante e arredores, sempre de acordo com as orientações e manual de operação."
+          },
+          {
+            "tipo": "item",
+            "texto": "Participar de nossos programas de treinamento, integração e comunicação por meio de reuniões, webinares, sessões de participação e cursos técnicos. O objetivo é garantir que você esteja sempre atualizado tanto na parte técnica quanto operacional."
+          }
+        ]
+      },
+      {
+        "titulo": "Requisitos",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Ingrediente que não pode faltar 🍔"
+          },
+          {
+            "tipo": "item",
+            "texto": "Ensino médio cursando ou completo."
+          },
+          {
+            "tipo": "item",
+            "texto": "Disponibilidade para trabalhar de 3 a 4 dias na semana, incluindo finais de semana."
+          },
+          {
+            "tipo": "texto",
+            "texto": "﻿"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "A gente vai amar muito se você... 😍"
+          },
+          {
+            "tipo": "item",
+            "texto": "Faz questão de tornar as coisas mais fáceis para as pessoas"
+          },
+          {
+            "tipo": "item",
+            "texto": "Adora gerar sorrisos 😀"
+          },
+          {
+            "tipo": "item",
+            "texto": "Ama contato pessoal e sempre busca oportunidades para interação 🗨"
+          },
+          {
+            "tipo": "item",
+            "texto": "Entende que as necessidades das pessoas são mais importantes do que qualquer tarefa"
+          },
+          {
+            "tipo": "item",
+            "texto": "É comprometido com o bom tratamento entre as pessoas e coloca o respeito acima de tudo"
+          },
+          {
+            "tipo": "item",
+            "texto": "Celebra as diferenças e acredita que cada cliente e cada experiência são únicos!"
           }
         ]
       },
