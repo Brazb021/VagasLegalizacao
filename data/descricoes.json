@@ -3541,162 +3541,6 @@
       }
     ]
   },
-  "12870006": {
-    "fonte": "html",
-    "secoes": [
-      {
-        "titulo": "Responsabilidades",
-        "blocos": [
-          {
-            "tipo": "item",
-            "texto": "Encantar os clientes no processo de vendas de Produtos Financeiros, auxiliando sempre que necessário;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Executar atividades relacionadas à área de crédito da empresa, tais como, liberação de crédito, emissão de cartões e prestar informações a clientes;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Atualizar os dados cadastrais dos clientes e atuar com a qualidade da venda de produtos financeiros;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Responsável pela organização e solicitação de materiais de divulgação dos produtos financeiros."
-          }
-        ]
-      },
-      {
-        "titulo": "Requisitos",
-        "blocos": [
-          {
-            "tipo": "item",
-            "texto": "Ensino Médio completo;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Identificação com Moda;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Gostar de atendimento ao público;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Identificação com a área de produtos financeiros;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Ter facilidade com as ferramentas digitais;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Ter facilidade com oferta de produtos financeiros"
-          }
-        ]
-      },
-      {
-        "titulo": "Informações adicionais",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Fique por dentro dos nossos benefícios!"
-          },
-          {
-            "tipo": "texto",
-            "texto": "*Consulte elegibilidade do seu cargo."
-          },
-          {
-            "tipo": "texto",
-            "texto": "Para facilitar o seu dia a dia:"
-          },
-          {
-            "tipo": "item",
-            "texto": "Vale-Transporte e/ou Fretado para vagas dos nossos CDs*;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Vale-Refeição/Alimentação;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Vale-Cesta de Natal;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Auxílio Home Office (para contratos de trabalho híbrido ou remoto)*;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Cartão de crédito multicompras;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Desconto de Colaborador nas nossas lojas."
-          },
-          {
-            "tipo": "texto",
-            "texto": "Para sua saúde e bem-estar:"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Médica;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Dr. Be (telemedicina, telepsicologia, coaching nutricional e coaching esportivo)*;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Wellhub (Gympass);"
-          },
-          {
-            "tipo": "item",
-            "texto": "Programas e Campanhas desenvolvidos para promover o autocuidado da saúde e bem-estar dos nossos colaboradores e seus familiares."
-          },
-          {
-            "tipo": "texto",
-            "texto": "Para sua flexibilidade e rotina:"
-          },
-          {
-            "tipo": "item",
-            "texto": "Metodologia Balance aplicada junto a liderança e time fortalecendo a comunicação e reconhecimento, bem-estar e estilo de trabalho/ferramentas."
-          },
-          {
-            "tipo": "texto",
-            "texto": "Conheça nossa SER (Associação dos Colaboradores Renner S.A.) que dá acesso à mais benefícios:"
-          },
-          {
-            "tipo": "item",
-            "texto": "Plano odontológico;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Univers - desconto nas farmácias Raia e Drogasil;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Convênio de saúde para Pets;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assessoria de Corrida;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Desconto em universidades, escolas, cursos de idioma e profissionalizantes;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Ingressos de cinemas, parques e muito mais."
-          },
-          {
-            "tipo": "texto",
-            "texto": "Pessoas com deficiência são bem-vindas em todas as nossas oportunidades."
-          }
-        ]
-      }
-    ]
-  },
   "12877544": {
     "fonte": "html",
     "secoes": [
@@ -122763,6 +122607,242 @@
           {
             "tipo": "item",
             "texto": "Programa de indicações."
+          }
+        ]
+      }
+    ]
+  },
+  "12911287": {
+    "fonte": "html",
+    "secoes": [
+      {
+        "titulo": "Responsabilidades",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Como será o seu dia a dia"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "(spoiler: gerar muitos sorrisos faz parte do pacote)!"
+          },
+          {
+            "tipo": "item",
+            "texto": "A gente contará com você para as atividades operacionais do restaurante: preparar e montar os pedidos; atendimento ao cliente e, também, garantir que ambiente e equipamentos estejam sempre limpos. Confira detalhes!"
+          },
+          {
+            "tipo": "item",
+            "texto": "Atender aos clientes é uma das partes mais importantes do trabalho: é nossa prioridade gerar sorrisos! Você, como atendente, será responsável pelo atendimento nos nossos restaurantes, com atividades como gerar os pedidos e receber o pagamento, inclusive no nosso Drive-Tudo."
+          },
+          {
+            "tipo": "item",
+            "texto": "Preparar as delícias que saem da nossa cozinha: sanduíches, McFritas, bebidas e sobremesas, como a nossa famosa casquinha. 🍦"
+          },
+          {
+            "tipo": "item",
+            "texto": "Você será treinado para operar equipamentos apropriados e, também, sobre como manter nosso super padrão de qualidade, higiene, limpeza e segurança."
+          },
+          {
+            "tipo": "item",
+            "texto": "Limpar a e higienizar nossos equipamentos, pisos, cadeiras, mesas e instalações do restaurante e arredores, sempre de acordo com as orientações e manual de operação."
+          },
+          {
+            "tipo": "item",
+            "texto": "Participar de nossos programas de treinamento, integração e comunicação por meio de reuniões, webinares, sessões de participação e cursos técnicos. O objetivo é garantir que você esteja sempre atualizado tanto na parte técnica quanto operacional."
+          }
+        ]
+      },
+      {
+        "titulo": "Requisitos",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Ingrediente que não pode faltar 🍔"
+          },
+          {
+            "tipo": "item",
+            "texto": "Ensino médio cursando ou completo."
+          }
+        ]
+      },
+      {
+        "titulo": "Informações adicionais",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Benefícios que deixam tudo ainda mais gostoso 😋"
+          },
+          {
+            "tipo": "item",
+            "texto": "Assistência Médica"
+          },
+          {
+            "tipo": "item",
+            "texto": "Assistência Odontológica;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Vale transporte;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Refeição no local;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Gympass;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Seguro de vida;"
+          },
+          {
+            "tipo": "item",
+            "texto": "PPR - Participação nos lucros."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Pronto para uma experiência tão inesquecível quanto um Big Mac? Se inscreva! ⌨"
+          }
+        ]
+      }
+    ]
+  },
+  "12911234": {
+    "fonte": "html",
+    "secoes": [
+      {
+        "titulo": "Responsabilidades",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Como será o seu dia a dia"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "(spoiler: gerar muitos sorrisos faz parte do pacote)!"
+          },
+          {
+            "tipo": "item",
+            "texto": "A gente"
+          },
+          {
+            "tipo": "texto",
+            "texto": "contará com você para as atividades de atendimento aos clientes do"
+          },
+          {
+            "tipo": "texto",
+            "texto": "restaurante. Confira detalhes!"
+          },
+          {
+            "tipo": "item",
+            "texto": "Conferir"
+          },
+          {
+            "tipo": "texto",
+            "texto": "o cardápio, brindes, sistema de som e ar-condicionado, garantindo que o"
+          },
+          {
+            "tipo": "texto",
+            "texto": "salão esteja organizado;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Realizar"
+          },
+          {
+            "tipo": "texto",
+            "texto": "pesquisas rápidas com os clientes;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Buscar"
+          },
+          {
+            "tipo": "texto",
+            "texto": "sempre a satisfação dos clientes se antecipando as suas necessidades;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Suporte"
+          },
+          {
+            "tipo": "texto",
+            "texto": "aos clientes na utilização dos totens de atendimento;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Auxiliar"
+          },
+          {
+            "tipo": "texto",
+            "texto": "o cliente na experiência Digital, garantindo sugestões do cardápio e"
+          },
+          {
+            "tipo": "texto",
+            "texto": "vendas adicionais, através dos totens, Peça e Retire, Pós Venda e McCafé;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Garantir"
+          },
+          {
+            "tipo": "texto",
+            "texto": "a satisfação da experiência familiar."
+          }
+        ]
+      },
+      {
+        "titulo": "Requisitos",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Ingrediente que não pode faltar 🍔"
+          },
+          {
+            "tipo": "item",
+            "texto": "Ensino médio cursando ou completo."
+          }
+        ]
+      },
+      {
+        "titulo": "Informações adicionais",
+        "blocos": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Benefícios que deixam tudo ainda mais gostoso 😋"
+          },
+          {
+            "tipo": "item",
+            "texto": "Assistência Médica"
+          },
+          {
+            "tipo": "item",
+            "texto": "Assistência Odontológica;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Vale transporte;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Refeição no local;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Gympass;"
+          },
+          {
+            "tipo": "item",
+            "texto": "Seguro de vida;"
+          },
+          {
+            "tipo": "item",
+            "texto": "PPR - Participação nos lucros."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Pronto para uma experiência tão inesquecível quanto um Big Mac? Se inscreva! ⌨"
           }
         ]
       }
