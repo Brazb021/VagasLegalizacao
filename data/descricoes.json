@@ -945,242 +945,6 @@
       }
     ]
   },
-  "12911287": {
-    "fonte": "html",
-    "secoes": [
-      {
-        "titulo": "Responsabilidades",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Como será o seu dia a dia"
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "(spoiler: gerar muitos sorrisos faz parte do pacote)!"
-          },
-          {
-            "tipo": "item",
-            "texto": "A gente contará com você para as atividades operacionais do restaurante: preparar e montar os pedidos; atendimento ao cliente e, também, garantir que ambiente e equipamentos estejam sempre limpos. Confira detalhes!"
-          },
-          {
-            "tipo": "item",
-            "texto": "Atender aos clientes é uma das partes mais importantes do trabalho: é nossa prioridade gerar sorrisos! Você, como atendente, será responsável pelo atendimento nos nossos restaurantes, com atividades como gerar os pedidos e receber o pagamento, inclusive no nosso Drive-Tudo."
-          },
-          {
-            "tipo": "item",
-            "texto": "Preparar as delícias que saem da nossa cozinha: sanduíches, McFritas, bebidas e sobremesas, como a nossa famosa casquinha. 🍦"
-          },
-          {
-            "tipo": "item",
-            "texto": "Você será treinado para operar equipamentos apropriados e, também, sobre como manter nosso super padrão de qualidade, higiene, limpeza e segurança."
-          },
-          {
-            "tipo": "item",
-            "texto": "Limpar a e higienizar nossos equipamentos, pisos, cadeiras, mesas e instalações do restaurante e arredores, sempre de acordo com as orientações e manual de operação."
-          },
-          {
-            "tipo": "item",
-            "texto": "Participar de nossos programas de treinamento, integração e comunicação por meio de reuniões, webinares, sessões de participação e cursos técnicos. O objetivo é garantir que você esteja sempre atualizado tanto na parte técnica quanto operacional."
-          }
-        ]
-      },
-      {
-        "titulo": "Requisitos",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Ingrediente que não pode faltar 🍔"
-          },
-          {
-            "tipo": "item",
-            "texto": "Ensino médio cursando ou completo."
-          }
-        ]
-      },
-      {
-        "titulo": "Informações adicionais",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Benefícios que deixam tudo ainda mais gostoso 😋"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Médica"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Odontológica;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Vale transporte;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Refeição no local;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Gympass;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Seguro de vida;"
-          },
-          {
-            "tipo": "item",
-            "texto": "PPR - Participação nos lucros."
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "Pronto para uma experiência tão inesquecível quanto um Big Mac? Se inscreva! ⌨"
-          }
-        ]
-      }
-    ]
-  },
-  "12911234": {
-    "fonte": "html",
-    "secoes": [
-      {
-        "titulo": "Responsabilidades",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Como será o seu dia a dia"
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "(spoiler: gerar muitos sorrisos faz parte do pacote)!"
-          },
-          {
-            "tipo": "item",
-            "texto": "A gente"
-          },
-          {
-            "tipo": "texto",
-            "texto": "contará com você para as atividades de atendimento aos clientes do"
-          },
-          {
-            "tipo": "texto",
-            "texto": "restaurante. Confira detalhes!"
-          },
-          {
-            "tipo": "item",
-            "texto": "Conferir"
-          },
-          {
-            "tipo": "texto",
-            "texto": "o cardápio, brindes, sistema de som e ar-condicionado, garantindo que o"
-          },
-          {
-            "tipo": "texto",
-            "texto": "salão esteja organizado;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Realizar"
-          },
-          {
-            "tipo": "texto",
-            "texto": "pesquisas rápidas com os clientes;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Buscar"
-          },
-          {
-            "tipo": "texto",
-            "texto": "sempre a satisfação dos clientes se antecipando as suas necessidades;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Suporte"
-          },
-          {
-            "tipo": "texto",
-            "texto": "aos clientes na utilização dos totens de atendimento;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Auxiliar"
-          },
-          {
-            "tipo": "texto",
-            "texto": "o cliente na experiência Digital, garantindo sugestões do cardápio e"
-          },
-          {
-            "tipo": "texto",
-            "texto": "vendas adicionais, através dos totens, Peça e Retire, Pós Venda e McCafé;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Garantir"
-          },
-          {
-            "tipo": "texto",
-            "texto": "a satisfação da experiência familiar."
-          }
-        ]
-      },
-      {
-        "titulo": "Requisitos",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Ingrediente que não pode faltar 🍔"
-          },
-          {
-            "tipo": "item",
-            "texto": "Ensino médio cursando ou completo."
-          }
-        ]
-      },
-      {
-        "titulo": "Informações adicionais",
-        "blocos": [
-          {
-            "tipo": "subtitulo",
-            "texto": "Benefícios que deixam tudo ainda mais gostoso 😋"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Médica"
-          },
-          {
-            "tipo": "item",
-            "texto": "Assistência Odontológica;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Vale transporte;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Refeição no local;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Gympass;"
-          },
-          {
-            "tipo": "item",
-            "texto": "Seguro de vida;"
-          },
-          {
-            "tipo": "item",
-            "texto": "PPR - Participação nos lucros."
-          },
-          {
-            "tipo": "subtitulo",
-            "texto": "Pronto para uma experiência tão inesquecível quanto um Big Mac? Se inscreva! ⌨"
-          }
-        ]
-      }
-    ]
-  },
   "12890851": {
     "fonte": "html",
     "secoes": [
@@ -111753,6 +111517,162 @@
           {
             "tipo": "texto",
             "texto": "1 ano."
+          }
+        ]
+      }
+    ]
+  },
+  "12940493": {
+    "fonte": "html",
+    "secoes": [
+      {
+        "titulo": "Responsabilidades",
+        "blocos": [
+          {
+            "tipo": "texto",
+            "texto": "· Realizar o cadastro de novos processos e"
+          },
+          {
+            "tipo": "texto",
+            "texto": "demandas nos sistemas de gestão jurídica do escritório, com precisão e"
+          },
+          {
+            "tipo": "texto",
+            "texto": "padronização das informações."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Consultar os sites dos tribunais e demais órgãos"
+          },
+          {
+            "tipo": "texto",
+            "texto": "para extrair dados processuais, acompanhar andamentos e conferir informações"
+          },
+          {
+            "tipo": "texto",
+            "texto": "cadastradas."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Analisar citações, intimações e decisões"
+          },
+          {
+            "tipo": "texto",
+            "texto": "iniciais para identificar e agendar os prazos iniciais do caso (contestação,"
+          },
+          {
+            "tipo": "texto",
+            "texto": "defesa, recursos e manifestações)."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Manter a base de dados atualizada e reportar"
+          },
+          {
+            "tipo": "texto",
+            "texto": "inconsistências ou riscos de prazo imediatamente."
+          }
+        ]
+      },
+      {
+        "titulo": "Requisitos",
+        "blocos": [
+          {
+            "tipo": "texto",
+            "texto": "· Conhecimento processual sólido, especialmente"
+          },
+          {
+            "tipo": "texto",
+            "texto": "para contagem e agendamento de prazos iniciais (CPC e legislação processual"
+          },
+          {
+            "tipo": "texto",
+            "texto": "aplicável)."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Familiaridade com os principais sistemas"
+          },
+          {
+            "tipo": "texto",
+            "texto": "jurídicos de gestão e acompanhamento processual."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Domínio na consulta aos sites dos tribunais"
+          },
+          {
+            "tipo": "texto",
+            "texto": "(TJs, TRFs, TRTs e tribunais superiores), incluindo sistemas de processo"
+          },
+          {
+            "tipo": "texto",
+            "texto": "eletrônico como PJe, e-SAJ, eproc e PROJUDI."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Graduação em Direito ou Administração em"
+          },
+          {
+            "tipo": "texto",
+            "texto": "andamento (a partir do 5º semestre) ou concluída; ou formação"
+          },
+          {
+            "tipo": "texto",
+            "texto": "técnica/tecnológica na área jurídica com experiência comprovada."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Atenção a detalhes, organização e"
+          },
+          {
+            "tipo": "texto",
+            "texto": "responsabilidade com prazos e confidencialidade."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Domínio do Pacote Office (Word, Excel e Outlook)"
+          },
+          {
+            "tipo": "texto",
+            "texto": "e Ferramentas de IA."
+          }
+        ]
+      },
+      {
+        "titulo": "Informações adicionais",
+        "blocos": [
+          {
+            "tipo": "texto",
+            "texto": "· Experiência anterior em escritório de advocacia"
+          },
+          {
+            "tipo": "texto",
+            "texto": "ou departamento jurídico."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Conhecimento de certificado digital e protocolo"
+          },
+          {
+            "tipo": "texto",
+            "texto": "eletrônico."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Proatividade e senso de urgência."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Comunicação clara e trabalho em equipe."
+          },
+          {
+            "tipo": "texto",
+            "texto": "· Capacidade de organizar prioridades e trabalhar"
+          },
+          {
+            "tipo": "texto",
+            "texto": "sob pressão."
           }
         ]
       }
