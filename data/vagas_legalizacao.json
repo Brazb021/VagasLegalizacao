@@ -1,5 +1,39 @@
 [
   {
+    "id": "ca-39455568",
+    "name": "Auxiliar de Legalização",
+    "workplaceType": "on-site",
+    "jobUrl": "https://www.catho.com.br/vagas/auxiliar-de-legalizacao/39455568",
+    "publishedDate": "2026-11-28T03:28:12.000Z",
+    "topic": "Legalização",
+    "data_formatada_br": "28/11/2026 às 00:28",
+    "careerPageName": "OCPR ORGANIZAÇÃO CONTÁBIL",
+    "careerPageUrl": "",
+    "careerPageLogo": "",
+    "isRemoteWork": false,
+    "city": "São Paulo",
+    "state": "São Paulo",
+    "country": "",
+    "fonte": "Catho"
+  },
+  {
+    "id": "ca-39448494",
+    "name": "Assistente de Legalização",
+    "workplaceType": "on-site",
+    "jobUrl": "https://www.catho.com.br/vagas/assistente-de-legalizacao/39448494",
+    "publishedDate": "2026-11-28T03:28:12.000Z",
+    "topic": "Legalização",
+    "data_formatada_br": "28/11/2026 às 00:28",
+    "careerPageName": "JMS ORGANIZACAO CONTABIL EIRELI",
+    "careerPageUrl": "",
+    "careerPageLogo": "",
+    "isRemoteWork": false,
+    "city": "São Paulo",
+    "state": "São Paulo",
+    "country": "",
+    "fonte": "Catho"
+  },
+  {
     "id": "ca-39434067",
     "name": "Analista Paralegal Sênior",
     "workplaceType": "on-site",
@@ -1239,22 +1273,5 @@
     "state": "São Paulo",
     "country": "",
     "fonte": "InfoJobs"
-  },
-  {
-    "id": "ca-39030050",
-    "name": "Paralegal Júnior",
-    "workplaceType": "on-site",
-    "jobUrl": "https://www.catho.com.br/vagas/paralegal-junior/39030050",
-    "publishedDate": "2026-10-28T23:16:50.000Z",
-    "topic": "Paralegal",
-    "data_formatada_br": "28/10/2026 às 20:16",
-    "careerPageName": "Prohabitar",
-    "careerPageUrl": "",
-    "careerPageLogo": "",
-    "isRemoteWork": false,
-    "city": "São Paulo",
-    "state": "São Paulo",
-    "country": "",
-    "fonte": "Catho"
   }
 ]
